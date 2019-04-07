@@ -155,6 +155,7 @@ void loop() {
             }
             else if (select =='u'){
               punishDuration = Serial.parseInt();
+              punishDuration = punishDuration*1000;
             }
             
              // intertrial interval
